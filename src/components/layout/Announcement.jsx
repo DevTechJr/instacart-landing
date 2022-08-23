@@ -10,7 +10,7 @@ const Announcement = () => {
       </p>
 
       <a class="cursor-pointer block px-5 py-3 mt-4 text-sm font-medium text-center text-accent transition bg-white rounded-lg sm:mt-0 hover:bg-white/90 active:text-accent-focus focus:outline-none focus:ring flex align-middle">
-        <p>Visit GitHub Repo</p> <FaGithub className="text-xl mx-3" />
+        <a href="https://github.com/DevTechJr/instacart-landing">Visit GitHub Repo</a> <FaGithub className="text-xl mx-3" />
       </a>
     </div>
   );

@@ -2,7 +2,7 @@
 
 InstaCart Landing Page - Inspired by InstaCart.com
 
-Live Project Link ▶️ : 
+Live Project Link ▶️ : https://instacart-landing.netlify.app/
 
 Project Demo Video Link : https://drive.google.com/file/d/14cgp6NyBtPHAuqhfl01tpiifOcdBXpK9/view?usp=sharing
 
