@@ -6,7 +6,8 @@ const Stats = () => {
       <div class="max-w-screen-xl px-4  py-12 mx-auto md:py-16 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-3xl font-bold text-accent sm:text-4xl">
-            Trusted By Your Local Stores
+            Trusted By Your <span className="text-primary-focus">Local</span>{" "}
+            Stores
           </h2>
 
           <p class="mt-4 text-info-content sm:text-xl font-medium">

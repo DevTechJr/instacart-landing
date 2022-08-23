@@ -12,7 +12,7 @@ const Companies = () => {
         />
         <img
           className="w-1/5 transition ease-in-out duration-500"
-          src="https://www.kindpng.com/picc/m/198-1985271_bbc-studios-logo-png-transparent-png.png"
+          src="https://logos-world.net/wp-content/uploads/2022/01/BBC-Logo.png"
         />
         <img
           className="w-1/5 transition ease-in-out duration-500"

@@ -14,7 +14,7 @@ const PickUs = () => {
       <div class="w-full px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-white rounded-lg">
         <div class="max-w-lg mx-auto text-center">
           <h2 class="text-3xl font-bold sm:text-4xl text-accent">
-            Why Choose Us?
+            Why <span className="text-primary-focus">Choose</span> Us?
           </h2>
 
           <p class="mt-4 text-info-content font-medium">
@@ -42,10 +42,10 @@ const PickUs = () => {
             </p>
           </a>
           {/* Divider */}
-          <a class="block p-8 transition border-2 border border-accent shadow-xl rounded-xl hover:shadow-accent hover:border-accent-focus">
-            <FaCity className="text-accent text-3xl" />
+          <a class="block p-8 transition border-2 border border-primary shadow-xl rounded-xl hover:shadow-primary hover:border-primary-focus">
+            <FaCity className="text-primary text-3xl" />
 
-            <h3 class="mt-4 text-xl font-bold text-accent">
+            <h3 class="mt-4 text-xl font-bold text-primary">
               Thousands Of Stores
             </h3>
 
@@ -72,10 +72,12 @@ const PickUs = () => {
             </p>
           </a>
           {/* Divider */}
-          <a class="block p-8 transition border-2 border border-accent shadow-xl rounded-xl hover:shadow-accent hover:border-accent-focus">
-            <FaUsersCog className="text-accent text-3xl" />
+          <a class="block p-8 transition border-2 border border-primary shadow-xl rounded-xl hover:shadow-primary hover:border-primary-focus">
+            <FaUsersCog className="text-primary text-3xl" />
 
-            <h3 class="mt-4 text-xl font-bold text-accent">Customer Service</h3>
+            <h3 class="mt-4 text-xl font-bold text-primary">
+              Customer Service
+            </h3>
 
             <p class="mt-1 text-sm text-info-content">
               We offer award winning customer service at InstaCart because we
@@ -100,10 +102,10 @@ const PickUs = () => {
             </p>
           </a>
           {/* Divider */}
-          <a class="block p-8 transition border-2 border border-accent shadow-xl rounded-xl hover:shadow-accent hover:border-accent-focus">
-            <FaTags className="text-accent text-3xl" />
+          <a class="block p-8 transition border-2 border border-primary shadow-xl rounded-xl hover:shadow-primary hover:border-primary-focus">
+            <FaTags className="text-primary text-3xl" />
 
-            <h3 class="mt-4 text-xl font-bold text-accent">Best Prices</h3>
+            <h3 class="mt-4 text-xl font-bold text-primary">Best Prices</h3>
 
             <p class="mt-1 text-sm text-info-content">
               Unlike other grocery delivery services, we ensure that groceries

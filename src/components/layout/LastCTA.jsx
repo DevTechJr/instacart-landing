@@ -21,7 +21,8 @@ const LastCTA = () => {
 
               <div class="p-8 sm:p-16 lg:p-24">
                 <h2 class="text-2xl font-bold sm:text-3xl">
-                  Groceries Don't Have To Be A Hassle. Get Them Instantly With{" "}
+                  Groceries Don't Have To Be A Hassle. Get Them{" "}
+                  <span className="text-primary-focus">Instantly</span> With{" "}
                   <span className="text-accent"> InstaCart</span> Today.
                 </h2>
 

@@ -9,7 +9,8 @@ const Reviews = () => {
     <div className="w-full flex flex-col items-center justify-between p-24 mt-0">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl mt-8 mb-8 font-bold text-accent sm:text-4xl">
-          Trusted Reviews From Our Customers :
+          Trusted <span className="text-primary-focus">Reviews From</span> Our
+          Customers :
         </h2>
       </div>
       {/* Divider */}

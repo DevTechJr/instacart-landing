@@ -57,10 +57,73 @@ const Navbar = () => {
           </div>
           <div class="navbar-center">
             <a class="btn btn-ghost normal-case text-xl">
-              <img
-                className="w-48 h-auto"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Instacart_logo_and_wordmark.svg/2560px-Instacart_logo_and_wordmark.svg.png"
-              />
+              {/* <!-- The button to open modal --> */}
+              <label for="my-modal-3" class=" bg-transparent modal-button">
+                <img
+                  className="w-48 h-auto bg-transparent hover:bg-transparent"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Instacart_logo_and_wordmark.svg/2560px-Instacart_logo_and_wordmark.svg.png"
+                />
+              </label>
+
+              {/* <!-- Put this part before </body> tag --> */}
+              <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+              <div class="modal p-10">
+                <div class="modal-box relative">
+                  <label
+                    for="my-modal-3"
+                    class="btn btn-sm btn-circle absolute right-2 top-2"
+                  >
+                    ✕
+                  </label>
+                  <h3 class="text-2xl text-accent font-bold">
+                    Get 40% Off On Your Next Order!
+                  </h3>
+                  <img
+                    className="rounded-lg border border-2 border-dashed border-accent my-4"
+                    src="https://www.supermarketnews.com/sites/supermarketnews.com/files/Instacart%20contactless%20delivery.png"
+                  />
+                  <p class="py-4 text-md font-medium text-info-content">
+                    Shop today and recieve 40% off your next order when you
+                    place an order over $35 with{" "}
+                    <span className="text-accent">InstaCart</span> today!
+                  </p>
+                  <div class="max-w-xl mx-auto mt-8">
+                    <form
+                      action={() =>
+                        alert("This is just a landing page. Sorry!")
+                      }
+                      class="sm:gap-4 sm:flex"
+                    >
+                      <div class="sm:flex-1">
+                        <input
+                          type="email"
+                          placeholder="Search For Stores..."
+                          class="w-full p-3 text-white transition bg-primary-content border-primary-content rounded-md shadow-sm focus:ring focus:outline-none focus:ring-primary focus:border-gray-800 text-lg"
+                        />
+                      </div>
+
+                      <button class="flex items-center justify-center w-full px-5 py-3 mt-4 text-white transition rounded-md bg-accent sm:mt-0 sm:w-auto group focus:outline-none focus:ring focus:ring-accent">
+                        <span class="text-sm font-medium"> Shop Now </span>
+
+                        <svg
+                          class="w-5 h-5 ml-3"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                          />
+                        </svg>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </a>
           </div>
           <div class="navbar-end">
