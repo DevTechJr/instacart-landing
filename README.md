@@ -12,6 +12,8 @@ Hey, it's Anirudh.
 
 I recently created a new version of InstaCart's landing page. It's a simple 1 page website created with the React JS Frontend Framework. While there are interactive components, there isn't any page routing or links to additional pages. The page is an example of something you could potentially see on a rising startup's website. It contains distinctive components that make up a landing page such as a CTA, Testimonials, and Stats.
 
+Note : This page is responsive and looks good on all screen sizes. Don't hesitate to change screen width or view on another device- it'll look just as good!
+
 Below is more information about the tools and technologies used to construct this landing page :
 
 ### Tools & Tech Specs
